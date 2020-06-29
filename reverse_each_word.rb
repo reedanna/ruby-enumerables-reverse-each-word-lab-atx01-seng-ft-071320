@@ -3,6 +3,7 @@ def reverse_each_word(string)
   reversed_array = []
   reversed_string = ""
   string_array.each do |item
-    
+    reversed = item.reverse
+    reversed_array.push(reversed)
   end
 end
